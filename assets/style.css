@@ -1,0 +1,11 @@
+
+#articles .ui-accordion-header {
+    background-color: #3c3b6e;
+    margin: 0px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.head{
+    text-align: center;
+}
