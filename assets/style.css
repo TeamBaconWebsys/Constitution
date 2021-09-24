@@ -12,11 +12,18 @@ body {
   background-image: linear-gradient(to right, #b22234 10%, #fff, #3c3b6e 90%)
 }
 /* header/nav */
-header, nav {
+header{
   background-color: #b22234;
   font-size: 24px;
   text-align: center;
-  margin: 1em 0 1em 0;
+  margin-top: 1em;
+}
+
+nav {
+  background-color: #b22234;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 1em;
 }
 
 /* centering main/headers and making sure text isn't full width */
@@ -31,13 +38,19 @@ h1, h2 {
 }
 
 /* make links less ugly */
-/* a {
-  color: #389686;
-  margin: 1em 0 2em 0;
+.button {
+  font-family: 'Roboto Slab', Georgia, serif;
+  font-size: 20px;
+  background-color: #3c3b6e;
+  border: 2px solid #282749;
+  border-radius: 6px;
+  color: white;
+  padding: 0.5em;
+  text-align:center;
+  vertical-align:middle;
+  text-decoration: none;
+  display: inline-block;
 }
-a:visited {
-  color: #217265;
-} */
 
 nav a {
   background-color: #b22234;
