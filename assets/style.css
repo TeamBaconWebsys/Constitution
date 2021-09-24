@@ -112,6 +112,7 @@ span.emphasized {
   background-color: #fff;
   padding: 20px;
   font-size: 15px;
+  overflow: scroll;
   max-height: 400px;
   text-align: left;
 }
