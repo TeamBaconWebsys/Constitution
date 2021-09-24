@@ -77,3 +77,28 @@ span.emphasized {
   background-color: #fff;
   max-height: 400px;
 }
+
+/*CSS for Article Analysis*/
+#analysis_body{
+  text-align: center;
+}
+.btn{
+  font-family: 'Roboto Slab', Georgia, serif;
+  background-color: #b22234;
+  color:#fff;
+  font-size: 15px;
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid white;
+}
+.btn:hover{
+  background-color: #EDAE49;
+}
+.analysis{
+  display: none;
+  background-color: #fff;
+  padding: 20px;
+  font-size: 15px;
+  max-height: 400px;
+  text-align: left;
+}
