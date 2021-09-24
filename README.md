@@ -2,6 +2,8 @@
 
 Our interpretation of the Constitution for Constitution Day
 
+## Website is public [here](https://teambaconwebsys.github.io/lab-2/)
+
 ## Sources
 
 * <https://www.w3schools.com/css/css3_buttons.asp>
