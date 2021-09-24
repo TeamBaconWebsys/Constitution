@@ -1,41 +1,3 @@
-
-#articles .ui-accordion-header {
-    background-color: #3c3b6e;
-    margin: 0px;
-    font-size: 20px;
-    color: #fff;
-}
-#articles .ui-accordion-content{
-    background-color: #fff;
-    height: 400px;
-}
-
-.head{
-    text-align: center;
-}
-.link{
-    background-color: #b22234;
-    color: #fff;
-    font-size: 20px;
-    margin: 0px;
-    padding: 10px;
-    text-decoration: none;
-    text-align: center;
-    display: inline-block;
-}
-.link:hover{
-    background-color: #EDAE49;
-}
-header{
-    background-color: #b22234;
-    margin: 0px;
-}
-body{
-    padding: 0%;
-    margin: 0%;
-    background-image: linear-gradient(to right, #b22234, #fff, #3c3b6e)
-}
-
 /* start by removing all margin and padding for consistency */
 * {
   margin: 0;
@@ -47,16 +9,17 @@ body {
   font-size: 16px;
   line-height: 1.4;
   color: #303030;
-  background-color: #fefefe;
+  background-image: linear-gradient(to right, #b22234 10%, #fff, #3c3b6e 90%)
 }
-/* centering header and removing margins */
-header {
+/* header/nav */
+header, nav {
+  background-color: #b22234;
   font-size: 24px;
   text-align: center;
   margin: 1em 0 1em 0;
 }
 
-/* centering main and headers */
+/* centering main/headers and making sure text isn't full width */
 main {
   width: 90%;
   max-width: 45em;
@@ -68,12 +31,26 @@ h1, h2 {
 }
 
 /* make links less ugly */
-a {
+/* a {
   color: #389686;
   margin: 1em 0 2em 0;
 }
 a:visited {
   color: #217265;
+} */
+
+nav a {
+  background-color: #b22234;
+  color: #fff;
+  font-size: 20px;
+  margin: 0px;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+nav a:hover {
+  background-color: #EDAE49;
 }
 
 span.emphasized {
@@ -85,4 +62,18 @@ span.emphasized {
 /* space around links in link sections */
 .links h2 {
   margin-top: 1em;
+}
+
+/* CSS for jQuery expandable sections */
+#articles .ui-accordion-header {
+  font-family: 'Roboto Slab', Georgia, serif;
+  background-color: #3c3b6e;
+  margin: 0px;
+  font-size: 20px;
+  color: #fff;
+}
+#articles .ui-accordion-content {
+  font-family: 'Lato', Arial, sans-serif;
+  background-color: #fff;
+  max-height: 400px;
 }
